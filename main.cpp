@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include <sys/time.h>
 using namespace std;
 
@@ -63,26 +64,26 @@ int pthread_barrier_wait(pthread_barrier_t *barrier)
 #endif // PTHREAD_BARRIER_H_
 #endif // __APPLE__
 
-long int arraySize;
+long arraySize;
 int threadCount;
 pthread_barrier_t mybarrier;
 
 struct ThreadControlBlock {
     int id;
-    long int *localBlock;
-    long int blockSize;
-    long int *regularSample;
+    long *localBlock;
+    long blockSize;
+    long *regularSample;
 };
 
-long int timeDiff (timeval tv2, timeval tv) {
-    long int microseconds = (tv2.tv_sec - tv.tv_sec) * 1000000 + ((int)tv2.tv_usec - (int)tv.tv_usec);
+long timeDiff (timeval tv2, timeval tv) {
+    long microseconds = (tv2.tv_sec - tv.tv_sec) * 1000000 + ((int)tv2.tv_usec - (int)tv.tv_usec);
     return microseconds;
 }
 
 
 int comparator(const void * p, const void * q) {
-    long * l = (long int *) p;
-    long * r = (long int *) q;
+    long * l = (long *) p;
+    long * r = (long *) q;
 
     if (*l > * r)
         return 1;
@@ -94,20 +95,18 @@ int comparator(const void * p, const void * q) {
 
 void * sortAndSampleLocal(void * arg) {
     auto * myTCB = (struct ThreadControlBlock *) arg;
-    long int * block = myTCB->localBlock;
-    long int size = myTCB->blockSize;
+    long * block = myTCB->localBlock;
+    long size = myTCB->blockSize;
 
-    qsort(block, size, sizeof(long int), comparator);
+    qsort(block, size, sizeof(long), comparator);
 
-    long int * regularSample = myTCB->regularSample;
-    long int w = arraySize / (threadCount * threadCount);
+    long * regularSample = myTCB->regularSample;
+    long w = arraySize / (threadCount * threadCount);
 
     for (int i = 0; i < threadCount; i++) {
         regularSample[i] = block[i * w];
-        //std::cout << regularSample[i] << " ";
     }
-    //std::cout <<endl;
-    //printf("thread %d: I'm ready...\n", myTCB->id);
+
     pthread_barrier_wait(&mybarrier);
     pthread_exit(nullptr);
 }
@@ -123,15 +122,16 @@ int main(int argc, char ** argv) {
     // Setting parameters
     arraySize = stol(argv[1]);
     threadCount = stoi(argv[2]);
-    auto * data = new long int[arraySize];
+    vector <long> data(arraySize);
     struct ThreadControlBlock TCB[threadCount];
     pthread_t ThreadID[threadCount];
-    long int blockSize = floor(arraySize / threadCount);
+    long blockSize = floor(arraySize / threadCount);
     pthread_setconcurrency(threadCount);
+
     // "Randomly" generating data
     srandom((unsigned) time(nullptr));
-    for (long int i = 0; i < arraySize; i++) {
-        data[i] = (long int) (random());
+    for (long i = 0; i < arraySize; i++) {
+        data.push_back((long) random());
     }
 
     struct timeval start_time{};
@@ -142,9 +142,9 @@ int main(int argc, char ** argv) {
     for (int i = 0; i < threadCount; i++) {
         TCB[i].id = i;
         TCB[i].localBlock = &data[i * blockSize];
-        TCB[i].regularSample = new long int[threadCount];
+        TCB[i].regularSample = new long[threadCount];
 
-        if (i == threadCount - 1)
+        if (i == threadCount - 1) // Incase of uneven partitions
             TCB[i].blockSize = arraySize - (i * blockSize);
         else
             TCB[i].blockSize = blockSize;
