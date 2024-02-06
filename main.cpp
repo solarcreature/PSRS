@@ -263,7 +263,12 @@ int main(int argc, char ** argv) {
     }
     cout << endl;
 
+    struct timeval sequential_start{};
+    gettimeofday(&sequential_start, nullptr);
     sort(arr_copy, arr_copy + arraySize);
+    struct timeval sequential_end{};
+    gettimeofday(&sequential_end, nullptr);
+    cout << "Time taken for sequential sort: " << timeDiff(sequential_end, sequential_start) << " microseconds" << endl;
 
 #ifdef DEBUG
     cout << "Sorted ";
@@ -415,7 +420,7 @@ int main(int argc, char ** argv) {
     struct timeval phase_4{};
     gettimeofday(&phase_4, nullptr);
     cout << "Time taken for phase 4: " << timeDiff(phase_4, phase_3) << " microseconds" << endl;
-
+    cout << "Time taken as a whole: " << timeDiff(phase_4, start_time) << " microseconds" << endl;
     vector<long> final_vector;
     for (int i = 0; i < threadCount; i++) {
         final_vector.insert(final_vector.end(), TCB[i].mergedPartition.begin(), TCB[i].mergedPartition.end());
