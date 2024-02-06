@@ -4,6 +4,8 @@
 //#define DEBUG
 using namespace std;
 
+
+// taken from https://blog.albertarmea.com/post/47089939939/using-pthreadbarrier-on-mac-os-x and modified a bit for correctness
 #ifdef __APPLE__
 
 #ifndef PTHREAD_BARRIER_H_
@@ -96,11 +98,14 @@ public:
     long getValue() { return value; }
 };
 
+// simplified form of https://www.binarytides.com/get-time-difference-in-microtime-in-c/. Reinforced correctness by ChatGpt :)
 long timeDiff (timeval tv2, timeval tv) {
     long microseconds = (tv2.tv_sec - tv.tv_sec) * 1000000 + ((int)tv2.tv_usec - (int)tv.tv_usec);
     return microseconds;
 }
 
+
+// https://stackoverflow.com/questions/17638499/using-qsort-to-sort-an-array-of-long-long-int-not-working-for-large-nos
 int comparator(const void * p, const void * q) {
     long * l = (long *) p;
     long * r = (long *) q;
@@ -130,7 +135,7 @@ long binary_search(long *block, long size, long pivot) {
     return end;
 }
 
-void * sortAndSampleLocal(void * arg) {
+void *sortAndSampleLocal(void * arg) {
     auto * myTCB = (struct ThreadControlBlock *) arg;
     long * block = myTCB->localBlock;
     long size = myTCB->blockSize;
@@ -176,6 +181,7 @@ void *exchangePartitions(void *arg) {
     pthread_exit(nullptr);
 }
 
+// https://www.geeksforgeeks.org/implement-min-heap-using-stl/ for comparison
 class minComp {
 public:
     int operator() (QueueObject q1, QueueObject& q2) {
@@ -183,6 +189,7 @@ public:
     }
 };
 
+// heavily inspired by https://medium.com/@vidyasagarr7/mastering-the-k-way-merge-algorithmic-pattern-for-technical-interviews-6db0e00a049f
 void *successiveMerge(void *arg) {
     auto *myTCB = (struct ThreadControlBlock *)arg;
 
@@ -270,7 +277,7 @@ int main(int argc, char ** argv) {
     gettimeofday(&start_time, nullptr);
 
     pthread_barrier_init(&mybarrier, nullptr, threadCount);
-    // Phase 1
+
     for (int i = 0; i < threadCount; i++) {
         TCB[i].id = i;
         TCB[i].localBlock = &values[i * blockSize];
@@ -294,7 +301,6 @@ int main(int argc, char ** argv) {
     cout << "Time taken for phase 1: " << timeDiff(phase_1, start_time) << " microseconds" << endl;
 
     vector<pair<long, long>> localSamples;
-
 
     for (int i = 0; i < threadCount; i++) {
 #ifdef DEBUG
