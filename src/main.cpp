@@ -77,7 +77,7 @@ struct ThreadControlBlock {
     int id;
     long *localBlock;
     long blockSize;
-    vector<pair<long, long>> regularSample;
+    vector<pair<long, long>> localSample;
     vector<pair<long, long>> pivots;
     vector<pair<long, long>> partitions;
     vector<pair<long, long>> truePartitions;
@@ -145,7 +145,7 @@ void *sortAndSampleLocal(void * arg) {
     long w = arraySize / (threadCount * threadCount);
 
     for (int i = 0; i < threadCount; i++) {
-        myTCB->regularSample.emplace_back(block[i * w], (i * floor(arraySize / threadCount)) + (i * w));
+        myTCB->localSample.emplace_back(block[i * w], (i * floor(arraySize / threadCount)) + (i * w));
     }
 
     pthread_barrier_wait(&mybarrier);
@@ -305,7 +305,7 @@ int main(int argc, char ** argv) {
     gettimeofday(&phase_1, nullptr);
     cout << "Time taken for phase 1: " << timeDiff(phase_1, start_time) << " microseconds" << endl;
 
-    vector<pair<long, long>> localSamples;
+    vector<pair<long, long>> regularSamples;
 
     for (int i = 0; i < threadCount; i++) {
 #ifdef DEBUG
@@ -317,21 +317,21 @@ int main(int argc, char ** argv) {
 
         cout << "Thread " << i << " Samples" <<endl;
 #endif
-        localSamples.insert(localSamples.end(), TCB[i].regularSample.begin(), TCB[i].regularSample.end());
+        regularSamples.insert(regularSamples.end(), TCB[i].localSample.begin(), TCB[i].localSample.end());
 #ifdef DEBUG
         for (int j = 0; j < threadCount; j++) {
-            cout << TCB[i].regularSample[j].first <<  " " << "Index " << TCB[i].regularSample[j].second;
+            cout << TCB[i].localSample[j].first <<  " " << "Index " << TCB[i].localSample[j].second;
         }
         cout << endl << endl;
 #endif
     }
 
-    sort(localSamples.begin(), localSamples.end());
+    sort(regularSamples.begin(), regularSamples.end());
 
 #ifdef DEBUG
     cout << "Sorted Gathered Sample  "<<endl;
     for (int i = 0 ; i < threadCount * threadCount; i++) {
-        cout << localSamples[i].first << " " << "Index " << localSamples[i].second;
+        cout << regularSamples[i].first << " " << "Index " << regularSamples[i].second;
     }
     cout << endl;
     cout << endl;
@@ -344,9 +344,9 @@ int main(int argc, char ** argv) {
 #endif
     for (int i = 1; i < threadCount; i++) {
 #ifdef DEBUG
-        cout << localSamples[i * threadCount + rho -1].first << " " << "Index " << localSamples[i * threadCount + rho -1].second ;
+        cout << regularSamples[i * threadCount + rho -1].first << " " << "Index " << regularSamples[i * threadCount + rho -1].second ;
 #endif
-        pivots.push_back(localSamples[i * threadCount + rho - 1]);
+        pivots.push_back(regularSamples[i * threadCount + rho - 1]);
     }
 
     pthread_barrier_init(&mybarrier, nullptr, threadCount);
