@@ -465,4 +465,6 @@ int main(int argc, char ** argv) {
     // free memory
     free(values);
     free(arr_copy);
+
+    return 0;
 }

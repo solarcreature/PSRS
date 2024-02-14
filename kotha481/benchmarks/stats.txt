@@ -1,0 +1,1007 @@
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 2
+
+Time taken for sequential sort: 8442453 microseconds
+Time taken for phase 1: 6706648 microseconds
+Time taken for phase 2: 93 microseconds
+Time taken for phase 3: 54 microseconds
+Time taken for phase 4: 1220923 microseconds
+Time taken as a whole: 7927718 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 2
+
+Time taken for sequential sort: 8470596 microseconds
+Time taken for phase 1: 6711845 microseconds
+Time taken for phase 2: 134 microseconds
+Time taken for phase 3: 74 microseconds
+Time taken for phase 4: 1151892 microseconds
+Time taken as a whole: 7863945 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 2
+
+Time taken for sequential sort: 8507687 microseconds
+Time taken for phase 1: 6715211 microseconds
+Time taken for phase 2: 76 microseconds
+Time taken for phase 3: 39 microseconds
+Time taken for phase 4: 1126073 microseconds
+Time taken as a whole: 7841399 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 2
+
+Time taken for sequential sort: 8333889 microseconds
+Time taken for phase 1: 6698763 microseconds
+Time taken for phase 2: 69 microseconds
+Time taken for phase 3: 41 microseconds
+Time taken for phase 4: 1130679 microseconds
+Time taken as a whole: 7829552 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 2
+
+Time taken for sequential sort: 8451779 microseconds
+Time taken for phase 1: 6731310 microseconds
+Time taken for phase 2: 74 microseconds
+Time taken for phase 3: 43 microseconds
+Time taken for phase 4: 1234030 microseconds
+Time taken as a whole: 7965457 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 2
+
+Time taken for sequential sort: 8350864 microseconds
+Time taken for phase 1: 6771253 microseconds
+Time taken for phase 2: 133 microseconds
+Time taken for phase 3: 65 microseconds
+Time taken for phase 4: 1149013 microseconds
+Time taken as a whole: 7920464 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 2
+
+Time taken for sequential sort: 8302390 microseconds
+Time taken for phase 1: 6726553 microseconds
+Time taken for phase 2: 124 microseconds
+Time taken for phase 3: 63 microseconds
+Time taken for phase 4: 1153732 microseconds
+Time taken as a whole: 7880472 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 4
+
+Time taken for sequential sort: 8376930 microseconds
+Time taken for phase 1: 3341002 microseconds
+Time taken for phase 2: 143 microseconds
+Time taken for phase 3: 91 microseconds
+Time taken for phase 4: 798060 microseconds
+Time taken as a whole: 4139296 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 4
+
+Time taken for sequential sort: 8424775 microseconds
+Time taken for phase 1: 3407265 microseconds
+Time taken for phase 2: 234 microseconds
+Time taken for phase 3: 228 microseconds
+Time taken for phase 4: 819638 microseconds
+Time taken as a whole: 4227365 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 4
+
+Time taken for sequential sort: 8474210 microseconds
+Time taken for phase 1: 3325572 microseconds
+Time taken for phase 2: 228 microseconds
+Time taken for phase 3: 113 microseconds
+Time taken for phase 4: 840734 microseconds
+Time taken as a whole: 4166647 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 4
+
+Time taken for sequential sort: 8465193 microseconds
+Time taken for phase 1: 3358309 microseconds
+Time taken for phase 2: 160 microseconds
+Time taken for phase 3: 110 microseconds
+Time taken for phase 4: 781850 microseconds
+Time taken as a whole: 4140429 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 4
+
+Time taken for sequential sort: 8367591 microseconds
+Time taken for phase 1: 3319308 microseconds
+Time taken for phase 2: 187 microseconds
+Time taken for phase 3: 70 microseconds
+Time taken for phase 4: 813293 microseconds
+Time taken as a whole: 4132858 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 4
+
+Time taken for sequential sort: 8310489 microseconds
+Time taken for phase 1: 3340362 microseconds
+Time taken for phase 2: 172 microseconds
+Time taken for phase 3: 77 microseconds
+Time taken for phase 4: 812775 microseconds
+Time taken as a whole: 4153386 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 4
+
+Time taken for sequential sort: 8341929 microseconds
+Time taken for phase 1: 3325547 microseconds
+Time taken for phase 2: 107 microseconds
+Time taken for phase 3: 100 microseconds
+Time taken for phase 4: 819206 microseconds
+Time taken as a whole: 4144960 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 8
+
+Time taken for sequential sort: 8471909 microseconds
+Time taken for phase 1: 1636052 microseconds
+Time taken for phase 2: 262 microseconds
+Time taken for phase 3: 213 microseconds
+Time taken for phase 4: 780696 microseconds
+Time taken as a whole: 2417223 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 8
+
+Time taken for sequential sort: 8389190 microseconds
+Time taken for phase 1: 1664463 microseconds
+Time taken for phase 2: 354 microseconds
+Time taken for phase 3: 196 microseconds
+Time taken for phase 4: 603231 microseconds
+Time taken as a whole: 2268244 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 8
+
+Time taken for sequential sort: 8393255 microseconds
+Time taken for phase 1: 1674223 microseconds
+Time taken for phase 2: 319 microseconds
+Time taken for phase 3: 203 microseconds
+Time taken for phase 4: 685181 microseconds
+Time taken as a whole: 2359926 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 8
+
+Time taken for sequential sort: 8444742 microseconds
+Time taken for phase 1: 1680939 microseconds
+Time taken for phase 2: 175 microseconds
+Time taken for phase 3: 134 microseconds
+Time taken for phase 4: 668635 microseconds
+Time taken as a whole: 2349883 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 8
+
+Time taken for sequential sort: 8456143 microseconds
+Time taken for phase 1: 1654126 microseconds
+Time taken for phase 2: 337 microseconds
+Time taken for phase 3: 226 microseconds
+Time taken for phase 4: 730071 microseconds
+Time taken as a whole: 2384760 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 8
+
+Time taken for sequential sort: 8365723 microseconds
+Time taken for phase 1: 1624675 microseconds
+Time taken for phase 2: 344 microseconds
+Time taken for phase 3: 240 microseconds
+Time taken for phase 4: 651595 microseconds
+Time taken as a whole: 2276854 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 8
+
+Time taken for sequential sort: 8422599 microseconds
+Time taken for phase 1: 1664717 microseconds
+Time taken for phase 2: 284 microseconds
+Time taken for phase 3: 224 microseconds
+Time taken for phase 4: 714782 microseconds
+Time taken as a whole: 2380007 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 16
+
+Time taken for sequential sort: 8472044 microseconds
+Time taken for phase 1: 1222876 microseconds
+Time taken for phase 2: 503 microseconds
+Time taken for phase 3: 325 microseconds
+Time taken for phase 4: 584785 microseconds
+Time taken as a whole: 1808489 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 16
+
+Time taken for sequential sort: 8335704 microseconds
+Time taken for phase 1: 1236092 microseconds
+Time taken for phase 2: 602 microseconds
+Time taken for phase 3: 449 microseconds
+Time taken for phase 4: 581831 microseconds
+Time taken as a whole: 1818974 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 16
+
+Time taken for sequential sort: 8310214 microseconds
+Time taken for phase 1: 1240960 microseconds
+Time taken for phase 2: 573 microseconds
+Time taken for phase 3: 334 microseconds
+Time taken for phase 4: 572482 microseconds
+Time taken as a whole: 1814349 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 16
+
+Time taken for sequential sort: 8500999 microseconds
+Time taken for phase 1: 1242396 microseconds
+Time taken for phase 2: 293 microseconds
+Time taken for phase 3: 216 microseconds
+Time taken for phase 4: 587079 microseconds
+Time taken as a whole: 1829984 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 16
+
+Time taken for sequential sort: 8447493 microseconds
+Time taken for phase 1: 1221948 microseconds
+Time taken for phase 2: 369 microseconds
+Time taken for phase 3: 307 microseconds
+Time taken for phase 4: 591890 microseconds
+Time taken as a whole: 1814514 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 16
+
+Time taken for sequential sort: 8490136 microseconds
+Time taken for phase 1: 1288669 microseconds
+Time taken for phase 2: 388 microseconds
+Time taken for phase 3: 297 microseconds
+Time taken for phase 4: 599882 microseconds
+Time taken as a whole: 1889236 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 128000000 16
+
+Time taken for sequential sort: 8367491 microseconds
+Time taken for phase 1: 1238243 microseconds
+Time taken for phase 2: 529 microseconds
+Time taken for phase 3: 382 microseconds
+Time taken for phase 4: 537737 microseconds
+Time taken as a whole: 1776891 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 2
+
+Time taken for sequential sort: 17618184 microseconds
+Time taken for phase 1: 13902945 microseconds
+Time taken for phase 2: 68 microseconds
+Time taken for phase 3: 38 microseconds
+Time taken for phase 4: 2974945 microseconds
+Time taken as a whole: 16877996 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 2
+
+Time taken for sequential sort: 17701556 microseconds
+Time taken for phase 1: 14121671 microseconds
+Time taken for phase 2: 87 microseconds
+Time taken for phase 3: 58 microseconds
+Time taken for phase 4: 2757844 microseconds
+Time taken as a whole: 16879660 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 2
+
+Time taken for sequential sort: 17336948 microseconds
+Time taken for phase 1: 14048548 microseconds
+Time taken for phase 2: 84 microseconds
+Time taken for phase 3: 56 microseconds
+Time taken for phase 4: 3006081 microseconds
+Time taken as a whole: 17054769 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 2
+
+Time taken for sequential sort: 17355723 microseconds
+Time taken for phase 1: 13990534 microseconds
+Time taken for phase 2: 96 microseconds
+Time taken for phase 3: 49 microseconds
+Time taken for phase 4: 2907079 microseconds
+Time taken as a whole: 16897758 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 2
+
+Time taken for sequential sort: 17590562 microseconds
+Time taken for phase 1: 13933932 microseconds
+Time taken for phase 2: 76 microseconds
+Time taken for phase 3: 46 microseconds
+Time taken for phase 4: 3089858 microseconds
+Time taken as a whole: 17023912 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 2
+
+Time taken for sequential sort: 17568745 microseconds
+Time taken for phase 1: 13971807 microseconds
+Time taken for phase 2: 114 microseconds
+Time taken for phase 3: 63 microseconds
+Time taken for phase 4: 2812070 microseconds
+Time taken as a whole: 16784054 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 2
+
+Time taken for sequential sort: 17409364 microseconds
+Time taken for phase 1: 13933359 microseconds
+Time taken for phase 2: 74 microseconds
+Time taken for phase 3: 50 microseconds
+Time taken for phase 4: 2798950 microseconds
+Time taken as a whole: 16732433 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 4
+
+Time taken for sequential sort: 17496855 microseconds
+Time taken for phase 1: 6916273 microseconds
+Time taken for phase 2: 205 microseconds
+Time taken for phase 3: 94 microseconds
+Time taken for phase 4: 2152943 microseconds
+Time taken as a whole: 9069515 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 4
+
+Time taken for sequential sort: 17827821 microseconds
+Time taken for phase 1: 6950335 microseconds
+Time taken for phase 2: 125 microseconds
+Time taken for phase 3: 65 microseconds
+Time taken for phase 4: 1969929 microseconds
+Time taken as a whole: 8920454 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 4
+
+Time taken for sequential sort: 17521494 microseconds
+Time taken for phase 1: 6923876 microseconds
+Time taken for phase 2: 207 microseconds
+Time taken for phase 3: 101 microseconds
+Time taken for phase 4: 2275557 microseconds
+Time taken as a whole: 9199741 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 4
+
+Time taken for sequential sort: 17467429 microseconds
+Time taken for phase 1: 6893478 microseconds
+Time taken for phase 2: 274 microseconds
+Time taken for phase 3: 146 microseconds
+Time taken for phase 4: 2150316 microseconds
+Time taken as a whole: 9044214 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 4
+
+Time taken for sequential sort: 17529040 microseconds
+Time taken for phase 1: 6944579 microseconds
+Time taken for phase 2: 163 microseconds
+Time taken for phase 3: 110 microseconds
+Time taken for phase 4: 1880202 microseconds
+Time taken as a whole: 8825054 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 4
+
+Time taken for sequential sort: 17394918 microseconds
+Time taken for phase 1: 6957649 microseconds
+Time taken for phase 2: 108 microseconds
+Time taken for phase 3: 81 microseconds
+Time taken for phase 4: 2037886 microseconds
+Time taken as a whole: 8995724 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 4
+
+Time taken for sequential sort: 17424888 microseconds
+Time taken for phase 1: 6967700 microseconds
+Time taken for phase 2: 218 microseconds
+Time taken for phase 3: 117 microseconds
+Time taken for phase 4: 2057666 microseconds
+Time taken as a whole: 9025701 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 8
+
+Time taken for sequential sort: 17640299 microseconds
+Time taken for phase 1: 3492859 microseconds
+Time taken for phase 2: 195 microseconds
+Time taken for phase 3: 165 microseconds
+Time taken for phase 4: 1694658 microseconds
+Time taken as a whole: 5187877 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 8
+
+Time taken for sequential sort: 17285287 microseconds
+Time taken for phase 1: 3484239 microseconds
+Time taken for phase 2: 188 microseconds
+Time taken for phase 3: 151 microseconds
+Time taken for phase 4: 1675430 microseconds
+Time taken as a whole: 5160008 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 8
+
+Time taken for sequential sort: 17572197 microseconds
+Time taken for phase 1: 3562481 microseconds
+Time taken for phase 2: 186 microseconds
+Time taken for phase 3: 123 microseconds
+Time taken for phase 4: 1797035 microseconds
+Time taken as a whole: 5359825 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 8
+
+Time taken for sequential sort: 17466675 microseconds
+Time taken for phase 1: 3436309 microseconds
+Time taken for phase 2: 208 microseconds
+Time taken for phase 3: 137 microseconds
+Time taken for phase 4: 1865447 microseconds
+Time taken as a whole: 5302101 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 8
+
+Time taken for sequential sort: 17371579 microseconds
+Time taken for phase 1: 3459861 microseconds
+Time taken for phase 2: 183 microseconds
+Time taken for phase 3: 199 microseconds
+Time taken for phase 4: 1707062 microseconds
+Time taken as a whole: 5167305 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 8
+
+Time taken for sequential sort: 17344948 microseconds
+Time taken for phase 1: 3448991 microseconds
+Time taken for phase 2: 180 microseconds
+Time taken for phase 3: 117 microseconds
+Time taken for phase 4: 1679209 microseconds
+Time taken as a whole: 5128497 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 8
+
+Time taken for sequential sort: 17533949 microseconds
+Time taken for phase 1: 3383018 microseconds
+Time taken for phase 2: 194 microseconds
+Time taken for phase 3: 173 microseconds
+Time taken for phase 4: 1711452 microseconds
+Time taken as a whole: 5094837 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 16
+
+Time taken for sequential sort: 17505258 microseconds
+Time taken for phase 1: 2505417 microseconds
+Time taken for phase 2: 681 microseconds
+Time taken for phase 3: 463 microseconds
+Time taken for phase 4: 1693428 microseconds
+Time taken as a whole: 4199989 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 16
+
+Time taken for sequential sort: 17687065 microseconds
+Time taken for phase 1: 2544866 microseconds
+Time taken for phase 2: 495 microseconds
+Time taken for phase 3: 349 microseconds
+Time taken for phase 4: 1797023 microseconds
+Time taken as a whole: 4342733 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 16
+
+Time taken for sequential sort: 17536437 microseconds
+Time taken for phase 1: 2567707 microseconds
+Time taken for phase 2: 589 microseconds
+Time taken for phase 3: 338 microseconds
+Time taken for phase 4: 1823197 microseconds
+Time taken as a whole: 4391831 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 16
+
+Time taken for sequential sort: 17541065 microseconds
+Time taken for phase 1: 2566192 microseconds
+Time taken for phase 2: 601 microseconds
+Time taken for phase 3: 443 microseconds
+Time taken for phase 4: 1746946 microseconds
+Time taken as a whole: 4314182 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 16
+
+Time taken for sequential sort: 17415565 microseconds
+Time taken for phase 1: 2524261 microseconds
+Time taken for phase 2: 636 microseconds
+Time taken for phase 3: 380 microseconds
+Time taken for phase 4: 1543206 microseconds
+Time taken as a whole: 4068483 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 16
+
+Time taken for sequential sort: 17207980 microseconds
+Time taken for phase 1: 2527598 microseconds
+Time taken for phase 2: 512 microseconds
+Time taken for phase 3: 394 microseconds
+Time taken for phase 4: 1541461 microseconds
+Time taken as a whole: 4069965 microseconds
+
+/Users/sanjeevkotha/CMPUT481/PSRS/cmake-build-debug/PSRS 256000000 16
+
+Time taken for sequential sort: 17521893 microseconds
+Time taken for phase 1: 2537146 microseconds
+Time taken for phase 2: 569 microseconds
+Time taken for phase 3: 384 microseconds
+Time taken for phase 4: 1588775 microseconds
+Time taken as a whole: 4126874 microseconds
+
+./psrs 512000000 2
+
+Time taken for sequential sort: 40516070 microseconds
+Time taken for phase 1: 30695361 microseconds
+Time taken for phase 2: 116 microseconds
+Time taken for phase 3: 58 microseconds
+Time taken for phase 4: 6355959 microseconds
+Time taken as a whole: 37051494 microseconds
+
+./psrs 512000000 2
+
+Time taken for sequential sort: 40644338 microseconds
+Time taken for phase 1: 30724157 microseconds
+Time taken for phase 2: 156 microseconds
+Time taken for phase 3: 57 microseconds
+Time taken for phase 4: 6526473 microseconds
+Time taken as a whole: 37250843 microseconds
+
+./psrs 512000000 2
+
+Time taken for sequential sort: 40580972 microseconds
+Time taken for phase 1: 30793719 microseconds
+Time taken for phase 2: 171 microseconds
+Time taken for phase 3: 73 microseconds
+Time taken for phase 4: 6463866 microseconds
+Time taken as a whole: 37257829 microseconds
+
+./psrs 512000000 2
+
+Time taken for sequential sort: 36858280 microseconds
+Time taken for phase 1: 29566564 microseconds
+Time taken for phase 2: 116 microseconds
+Time taken for phase 3: 57 microseconds
+Time taken for phase 4: 5680294 microseconds
+Time taken as a whole: 35247031 microseconds
+
+./psrs 512000000 2
+
+Time taken for sequential sort: 36951981 microseconds
+Time taken for phase 1: 29885568 microseconds
+Time taken for phase 2: 120 microseconds
+Time taken for phase 3: 66 microseconds
+Time taken for phase 4: 5622640 microseconds
+Time taken as a whole: 35508394 microseconds
+
+./psrs 512000000 2
+
+Time taken for sequential sort: 37239592 microseconds
+Time taken for phase 1: 29817385 microseconds
+Time taken for phase 2: 101 microseconds
+Time taken for phase 3: 103 microseconds
+Time taken for phase 4: 5710430 microseconds
+Time taken as a whole: 35528019 microseconds
+
+./psrs 512000000 2
+
+Time taken for sequential sort: 37371625 microseconds
+Time taken for phase 1: 29872451 microseconds
+Time taken for phase 2: 123 microseconds
+Time taken for phase 3: 73 microseconds
+Time taken for phase 4: 5546390 microseconds
+Time taken as a whole: 35419037 microseconds
+
+./psrs 512000000 4
+
+Time taken for sequential sort: 37218729 microseconds
+Time taken for phase 1: 14809690 microseconds
+Time taken for phase 2: 233 microseconds
+Time taken for phase 3: 144 microseconds
+Time taken for phase 4: 4316294 microseconds
+Time taken as a whole: 19126361 microseconds
+
+./psrs 512000000 4
+
+Time taken for sequential sort: 36917690 microseconds
+Time taken for phase 1: 14904591 microseconds
+Time taken for phase 2: 229 microseconds
+Time taken for phase 3: 117 microseconds
+Time taken for phase 4: 4169468 microseconds
+Time taken as a whole: 19074405 microseconds
+
+./psrs 512000000 4
+
+Time taken for sequential sort: 38562821 microseconds
+Time taken for phase 1: 15146781 microseconds
+Time taken for phase 2: 200 microseconds
+Time taken for phase 3: 107 microseconds
+Time taken for phase 4: 4633953 microseconds
+Time taken as a whole: 19781041 microseconds
+
+./psrs 512000000 4
+
+Time taken for sequential sort: 38288588 microseconds
+Time taken for phase 1: 15045654 microseconds
+Time taken for phase 2: 204 microseconds
+Time taken for phase 3: 92 microseconds
+Time taken for phase 4: 4370462 microseconds
+Time taken as a whole: 19416412 microseconds
+
+./psrs 512000000 4
+
+Time taken for sequential sort: 37855263 microseconds
+Time taken for phase 1: 14892894 microseconds
+Time taken for phase 2: 269 microseconds
+Time taken for phase 3: 118 microseconds
+Time taken for phase 4: 4416649 microseconds
+Time taken as a whole: 19309930 microseconds
+
+./psrs 512000000 4
+
+Time taken for sequential sort: 36960629 microseconds
+Time taken for phase 1: 14914182 microseconds
+Time taken for phase 2: 235 microseconds
+Time taken for phase 3: 92 microseconds
+Time taken for phase 4: 4227332 microseconds
+Time taken as a whole: 19141841 microseconds
+
+./psrs 512000000 4
+
+Time taken for sequential sort: 36367616 microseconds
+Time taken for phase 1: 14834677 microseconds
+Time taken for phase 2: 188 microseconds
+Time taken for phase 3: 111 microseconds
+Time taken for phase 4: 4190183 microseconds
+Time taken as a whole: 19025159 microseconds
+
+./psrs 512000000 8
+
+Time taken for sequential sort: 37440043 microseconds
+Time taken for phase 1: 7750965 microseconds
+Time taken for phase 2: 209 microseconds
+Time taken for phase 3: 127 microseconds
+Time taken for phase 4: 3619738 microseconds
+Time taken as a whole: 11371039 microseconds
+
+./psrs 512000000 8
+
+Time taken for sequential sort: 36054692 microseconds
+Time taken for phase 1: 7211071 microseconds
+Time taken for phase 2: 253 microseconds
+Time taken for phase 3: 156 microseconds
+Time taken for phase 4: 3686653 microseconds
+Time taken as a whole: 10898133 microseconds
+
+./psrs 512000000 8
+
+Time taken for sequential sort: 36757771 microseconds
+Time taken for phase 1: 7457631 microseconds
+Time taken for phase 2: 444 microseconds
+Time taken for phase 3: 220 microseconds
+Time taken for phase 4: 3102216 microseconds
+Time taken as a whole: 10560511 microseconds
+
+./psrs 512000000 8
+
+Time taken for sequential sort: 37446544 microseconds
+Time taken for phase 1: 7606959 microseconds
+Time taken for phase 2: 355 microseconds
+Time taken for phase 3: 202 microseconds
+Time taken for phase 4: 3395377 microseconds
+Time taken as a whole: 11002893 microseconds
+
+./psrs 512000000 8
+
+Time taken for sequential sort: 37547099 microseconds
+Time taken for phase 1: 7621288 microseconds
+Time taken for phase 2: 353 microseconds
+Time taken for phase 3: 173 microseconds
+Time taken for phase 4: 3199277 microseconds
+Time taken as a whole: 10821091 microseconds
+
+./psrs 512000000 8
+
+Time taken for sequential sort: 37221350 microseconds
+Time taken for phase 1: 7514974 microseconds
+Time taken for phase 2: 437 microseconds
+Time taken for phase 3: 183 microseconds
+Time taken for phase 4: 3226014 microseconds
+Time taken as a whole: 10741608 microseconds
+
+./psrs 512000000 8
+
+Time taken for sequential sort: 36505694 microseconds
+Time taken for phase 1: 7477323 microseconds
+Time taken for phase 2: 308 microseconds
+Time taken for phase 3: 153 microseconds
+Time taken for phase 4: 3065994 microseconds
+Time taken as a whole: 10543778 microseconds
+
+./psrs 512000000 16
+
+Time taken for sequential sort: 37636751 microseconds
+Time taken for phase 1: 6137383 microseconds
+Time taken for phase 2: 585 microseconds
+Time taken for phase 3: 265 microseconds
+Time taken for phase 4: 3174315 microseconds
+Time taken as a whole: 9312548 microseconds
+
+./psrs 512000000 16
+
+Time taken for sequential sort: 36653546 microseconds
+Time taken for phase 1: 6042402 microseconds
+Time taken for phase 2: 795 microseconds
+Time taken for phase 3: 301 microseconds
+Time taken for phase 4: 3203365 microseconds
+Time taken as a whole: 9246863 microseconds
+
+./psrs 512000000 16
+
+Time taken for sequential sort: 36937359 microseconds
+Time taken for phase 1: 5878988 microseconds
+Time taken for phase 2: 758 microseconds
+Time taken for phase 3: 456 microseconds
+Time taken for phase 4: 3613262 microseconds
+Time taken as a whole: 9493464 microseconds
+
+./psrs 512000000 16
+
+Time taken for sequential sort: 36872904 microseconds
+Time taken for phase 1: 5670056 microseconds
+Time taken for phase 2: 461 microseconds
+Time taken for phase 3: 229 microseconds
+Time taken for phase 4: 3757893 microseconds
+Time taken as a whole: 9428639 microseconds
+
+./psrs 512000000 16
+
+Time taken for sequential sort: 36276243 microseconds
+Time taken for phase 1: 5802668 microseconds
+Time taken for phase 2: 519 microseconds
+Time taken for phase 3: 327 microseconds
+Time taken for phase 4: 3340180 microseconds
+Time taken as a whole: 9143694 microseconds
+
+./psrs 512000000 16
+
+Time taken for sequential sort: 36546871 microseconds
+Time taken for phase 1: 6111412 microseconds
+Time taken for phase 2: 578 microseconds
+Time taken for phase 3: 266 microseconds
+Time taken for phase 4: 3053774 microseconds
+Time taken as a whole: 9166030 microseconds
+
+./psrs 512000000 16
+
+Time taken for sequential sort: 35933701 microseconds
+Time taken for phase 1: 5750840 microseconds
+Time taken for phase 2: 566 microseconds
+Time taken for phase 3: 324 microseconds
+Time taken for phase 4: 3541070 microseconds
+Time taken as a whole: 9292800 microseconds
+
+./psrs 1024000000 2
+
+Time taken for sequential sort: 88194684 microseconds
+Time taken for phase 1: 66599533 microseconds
+Time taken for phase 2: 155 microseconds
+Time taken for phase 3: 44 microseconds
+Time taken for phase 4: 13360719 microseconds
+Time taken as a whole: 79960451 microseconds
+
+./psrs 1024000000 2
+
+Time taken for sequential sort: 90724381 microseconds
+Time taken for phase 1: 67231636 microseconds
+Time taken for phase 2: 233 microseconds
+Time taken for phase 3: 52 microseconds
+Time taken for phase 4: 13477230 microseconds
+Time taken as a whole: 80709151 microseconds
+
+./psrs 1024000000 2
+
+Time taken for sequential sort: 98047281 microseconds
+Time taken for phase 1: 70198723 microseconds
+Time taken for phase 2: 213 microseconds
+Time taken for phase 3: 118 microseconds
+Time taken for phase 4: 13412618 microseconds
+Time taken as a whole: 83611672 microseconds
+
+./psrs 1024000000 2
+
+Time taken for sequential sort: 96404590 microseconds
+Time taken for phase 1: 69648820 microseconds
+Time taken for phase 2: 222 microseconds
+Time taken for phase 3: 65 microseconds
+Time taken for phase 4: 14308320 microseconds
+Time taken as a whole: 83957427 microseconds
+
+./psrs 1024000000 2
+
+Time taken for sequential sort: 92665502 microseconds
+Time taken for phase 1: 67353050 microseconds
+Time taken for phase 2: 192 microseconds
+Time taken for phase 3: 85 microseconds
+Time taken for phase 4: 13015593 microseconds
+Time taken as a whole: 80368920 microseconds
+
+./psrs 1024000000 2
+
+Time taken for sequential sort: 95156657 microseconds
+Time taken for phase 1: 70368937 microseconds
+Time taken for phase 2: 192 microseconds
+Time taken for phase 3: 61 microseconds
+Time taken for phase 4: 13377141 microseconds
+Time taken as a whole: 83746331 microseconds
+
+./psrs 1024000000 2
+
+Time taken for sequential sort: 99103812 microseconds
+Time taken for phase 1: 71019115 microseconds
+Time taken for phase 2: 104 microseconds
+Time taken for phase 3: 890 microseconds
+Time taken for phase 4: 13737186 microseconds
+Time taken as a whole: 84757295 microseconds
+
+./psrs 1024000000 4
+
+Time taken for sequential sort: 93719547 microseconds
+Time taken for phase 1: 35815091 microseconds
+Time taken for phase 2: 374 microseconds
+Time taken for phase 3: 113 microseconds
+Time taken for phase 4: 10417315 microseconds
+Time taken as a whole: 46232893 microseconds
+
+./psrs 1024000000 4
+
+Time taken for sequential sort: 92515638 microseconds
+Time taken for phase 1: 34619075 microseconds
+Time taken for phase 2: 340 microseconds
+Time taken for phase 3: 106 microseconds
+Time taken for phase 4: 10568463 microseconds
+Time taken as a whole: 45187984 microseconds
+
+./psrs 1024000000 4
+
+Time taken for sequential sort: 96176597 microseconds
+Time taken for phase 1: 36423981 microseconds
+Time taken for phase 2: 1315 microseconds
+Time taken for phase 3: 107 microseconds
+Time taken for phase 4: 10355879 microseconds
+Time taken as a whole: 46781282 microseconds
+
+./psrs 1024000000 4
+
+Time taken for sequential sort: 89227304 microseconds
+Time taken for phase 1: 34216486 microseconds
+Time taken for phase 2: 418 microseconds
+Time taken for phase 3: 121 microseconds
+Time taken for phase 4: 10225106 microseconds
+Time taken as a whole: 44442131 microseconds
+
+./psrs 1024000000 4
+
+Time taken for sequential sort: 90879733 microseconds
+Time taken for phase 1: 33893011 microseconds
+Time taken for phase 2: 271 microseconds
+Time taken for phase 3: 102 microseconds
+Time taken for phase 4: 10003225 microseconds
+Time taken as a whole: 43896609 microseconds
+
+./psrs 1024000000 4
+
+Time taken for sequential sort: 92071619 microseconds
+Time taken for phase 1: 34441831 microseconds
+Time taken for phase 2: 182 microseconds
+Time taken for phase 3: 73 microseconds
+Time taken for phase 4: 9950162 microseconds
+Time taken as a whole: 44392248 microseconds
+
+./psrs 1024000000 4
+
+Time taken for sequential sort: 92839445 microseconds
+Time taken for phase 1: 34700548 microseconds
+Time taken for phase 2: 338 microseconds
+Time taken for phase 3: 122 microseconds
+Time taken for phase 4: 10854621 microseconds
+Time taken as a whole: 45555629 microseconds
+
+./psrs 1024000000 8
+
+Time taken for sequential sort: 89148973 microseconds
+Time taken for phase 1: 17450180 microseconds
+Time taken for phase 2: 655 microseconds
+Time taken for phase 3: 130 microseconds
+Time taken for phase 4: 8417282 microseconds
+Time taken as a whole: 25868247 microseconds
+
+./psrs 1024000000 8
+
+Time taken for sequential sort: 95280871 microseconds
+Time taken for phase 1: 20726635 microseconds
+Time taken for phase 2: 838 microseconds
+Time taken for phase 3: 161 microseconds
+Time taken for phase 4: 10024891 microseconds
+Time taken as a whole: 30752525 microseconds
+
+./psrs 1024000000 8
+
+Time taken for sequential sort: 94527566 microseconds
+Time taken for phase 1: 19237252 microseconds
+Time taken for phase 2: 807 microseconds
+Time taken for phase 3: 155 microseconds
+Time taken for phase 4: 8941534 microseconds
+Time taken as a whole: 28179748 microseconds
+
+ ./psrs 1024000000 8
+
+Time taken for sequential sort: 93613056 microseconds
+Time taken for phase 1: 17795262 microseconds
+Time taken for phase 2: 1113 microseconds
+Time taken for phase 3: 203 microseconds
+Time taken for phase 4: 8376770 microseconds
+Time taken as a whole: 26173348 microseconds
+
+./psrs 1024000000 8
+
+Time taken for sequential sort: 90752811 microseconds
+Time taken for phase 1: 18357315 microseconds
+Time taken for phase 2: 1146 microseconds
+Time taken for phase 3: 175 microseconds
+Time taken for phase 4: 8545592 microseconds
+Time taken as a whole: 26904228 microseconds
+
+ ./psrs 1024000000 8
+
+Time taken for sequential sort: 94352087 microseconds
+Time taken for phase 1: 21347363 microseconds
+Time taken for phase 2: 1352 microseconds
+Time taken for phase 3: 226 microseconds
+Time taken for phase 4: 10471367 microseconds
+Time taken as a whole: 31820308 microseconds
+
+./psrs 1024000000 8
+
+Time taken for sequential sort: 104393418 microseconds
+Time taken for phase 1: 22290249 microseconds
+Time taken for phase 2: 714 microseconds
+Time taken for phase 3: 145 microseconds
+Time taken for phase 4: 8726398 microseconds
+Time taken as a whole: 31017506 microseconds
+
+./psrs 1024000000 16
+
+Time taken for sequential sort: 97116106 microseconds
+Time taken for phase 1: 15320092 microseconds
+Time taken for phase 2: 5975 microseconds
+Time taken for phase 3: 486 microseconds
+Time taken for phase 4: 9005309 microseconds
+Time taken as a whole: 24331862 microseconds
+
+./psrs 1024000000 16
+
+Time taken for sequential sort: 92378058 microseconds
+Time taken for phase 1: 15651224 microseconds
+Time taken for phase 2: 3671 microseconds
+Time taken for phase 3: 414 microseconds
+Time taken for phase 4: 8823037 microseconds
+Time taken as a whole: 24478346 microseconds
+
+./psrs 1024000000 16
+
+Time taken for sequential sort: 102565216 microseconds
+Time taken for phase 1: 16428050 microseconds
+Time taken for phase 2: 2144 microseconds
+Time taken for phase 3: 297 microseconds
+Time taken for phase 4: 9378840 microseconds
+Time taken as a whole: 25809331 microseconds
+
+./psrs 1024000000 16
+
+Time taken for sequential sort: 100339472 microseconds
+Time taken for phase 1: 17349721 microseconds
+Time taken for phase 2: 2165 microseconds
+Time taken for phase 3: 263 microseconds
+Time taken for phase 4: 9453558 microseconds
+Time taken as a whole: 26805707 microseconds
+
+./psrs 1024000000 16
+
+Time taken for sequential sort: 103037245 microseconds
+Time taken for phase 1: 15467507 microseconds
+Time taken for phase 2: 1763 microseconds
+Time taken for phase 3: 415 microseconds
+Time taken for phase 4: 8811895 microseconds
+Time taken as a whole: 24281580 microseconds
+
+./psrs 1024000000 16
+
+Time taken for sequential sort: 88721141 microseconds
+Time taken for phase 1: 14139684 microseconds
+Time taken for phase 2: 1531 microseconds
+Time taken for phase 3: 245 microseconds
+Time taken for phase 4: 8401470 microseconds
+Time taken as a whole: 22542930 microseconds
+
+./psrs 1024000000 16
+
+Time taken for sequential sort: 83944768 microseconds
+Time taken for phase 1: 12526052 microseconds
+Time taken for phase 2: 1251 microseconds
+Time taken for phase 3: 276 microseconds
+Time taken for phase 4: 8044887 microseconds
+Time taken as a whole: 20572466 microseconds
